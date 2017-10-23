@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    /*outline: 1px solid red;*/
+    font-family: sans-serif;
+    height: 180px;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.subheader {
+    margin-top: 0px;
+    width: 100%;
+    float: left;
+}
+
+.buscador {
+    width: 970px;
+    height: 43px;
+    background-color: #e7ede5;
+    border-radius: 6px;
+    margin-left: 130px;
+    margin-top: 0px;
+}
+
+.buscador p {
+    /*outline: 1px solid green;*/
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 12px;
+    position: absolute;
+    color: #8c918a;
+}
+
+.buscador p strong {
+    /*outline: 1px solid blue;*/
+    display: inline;
+    margin-left: 760px;
+    font-size: 16px;
+    color: #000;
+}
+
+.fa {
+    position: absolute;
+    color: #a0a69e;
+}
+
+.fa-user {
+    margin-left: 960px;
+}
+.fa-commenting {
+    margin-left: 1050px;
+}
+
+.fa-bars {
+    margin-left: 1005px;
+}
+
+.fa-pinterest {
+    color: #BD081C;
+    position: absolute;
+    margin-left: 65px;
+}
+
+hr {
+    width: 100%;
+    border: 0.5px solid #c1c8bf;
+    display: inline-block;
+    margin: 13px 0px;
+}
+
+nav {
+    /*  outline: 1px solid green;*/
+    width: 1000px;
+    margin: auto;
+}
+
+ul {
+    /*outline: 1px solid yellow;*/
+    list-style: none;
+    padding-left: 0px;
+    line-height: 60px;
+    margin-left: 0px;
+}
+
+li {
+    display: inline-block;
+    border-radius: 5px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+a {
+    /*outline: 1px solid green;*/
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.uno {
+    background-image: url(img/uno.jpg);
+}
+.tres {
+    background-image: url(img/seis.jpg);
+}
+.cuatro {
+    background-image: url(img/cuatro.jpg);
+}
+.cinco {
+    background-image: url(img/cinco.jpg);
+}
+.seis {
+    background-image: url(img/seis.jpg);
+}
+.siete {
+    background-image: url(img/siete.jpg);
+}
+.ocho {
+    background-image: url(img/ocho.jpg);
+}
+.nueve {
+    background-image: url(img/nueve.jpg);
+}
+.nueve {
+    background-image: url(img/nueve.jpg);
+}
+
+main {
+    /*outline: 1px solid blue;*/
+    padding-top: 180px;
+    margin: auto;
+    width: 1200;
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+main .noticias {
+    /*outline: 1px solid green;*/
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+.fotos img {
+    /*outline: 1px solid green;*/
+    max-width: 23%;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    float: left;
+}
